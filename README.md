@@ -1,6 +1,7 @@
 # Docker To Podman
 
-Old habits... having "cut my teeth" on OpenShift 3, I was initiated by using "docker".  Now that I use podman, I have created a work-around until I break myself of the habit of typing "docker <do something".  Next up:  replacing 'oc' with 'kubectl'.  
+Old habits... having "cut my teeth" with containers on OpenShift 3, I was initiated by using "docker".  
+Roll forward 7 years: now that I use podman, I have created a work-around until I break myself of the habit of typing "docker <do something".  
 
 This is what I have done to mitigate my faux pas.
 
@@ -13,3 +14,4 @@ docker pull centos:latest
 docker images
 ```
 
+Next up:  replacing 'oc' with 'kubectl'.  ;-)
